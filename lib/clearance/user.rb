@@ -99,7 +99,7 @@ module Clearance
       #   user.reset_remember_token!
       def reset_remember_token!
         generate_remember_token
-        save(false)
+        save(:validation => false)
       end
 
       # Confirm my email.
@@ -109,7 +109,7 @@ module Clearance
       def confirm_email!
         self.email_confirmed    = true
         self.confirmation_token = nil
-        save(false)
+        save(:validation => false)
       end
 
       # Mark my account as forgotten password.
@@ -118,7 +118,7 @@ module Clearance
       #   user.forgot_password!
       def forgot_password!
         generate_confirmation_token
-        save(false)
+        save(:validation => false)
       end
 
       # Update my password.
