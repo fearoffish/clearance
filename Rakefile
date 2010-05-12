@@ -90,7 +90,8 @@ Jeweler::Tasks.new do |gem|
                      "Josh Nichols", "Mike Breen", "Marcel Görner",
                      "Bence Nagy", "Ben Mabey", "Eloy Duran",
                      "Tim Pope", "Mihai Anca", "Mark Cornick",
-                     "Shay Arnett", "Jon Yurek", "Chad Pytel"]
+                     "Shay Arnett", "Jon Yurek", "Chad Pytel",
+                     "Jamie van Dyke"]
   gem.files       = FileList["[A-Z]*", "{app,config,generators,lib,shoulda_macros,rails}/**/*"]
 end
 

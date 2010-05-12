@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version = "0.8.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Dan Croak", "Mike Burns", "Jason Morrison", "Joe Ferris", "Eugene Bolshakov", "Nick Quaranto", "Josh Nichols", "Mike Breen", "Marcel G\303\266rner", "Bence Nagy", "Ben Mabey", "Eloy Duran", "Tim Pope", "Mihai Anca", "Mark Cornick", "Shay Arnett", "Jon Yurek", "Chad Pytel"]
-  s.date = %q{2010-02-25}
+  s.authors = ["Dan Croak", "Mike Burns", "Jason Morrison", "Joe Ferris", "Eugene Bolshakov", "Nick Quaranto", "Josh Nichols", "Mike Breen", "Marcel G\303\266rner", "Bence Nagy", "Ben Mabey", "Eloy Duran", "Tim Pope", "Mihai Anca", "Mark Cornick", "Shay Arnett", "Jon Yurek", "Chad Pytel", "Jamie van Dyke"]
+  s.date = %q{2010-05-12}
   s.description = %q{Rails authentication with email & password.}
   s.email = %q{support@thoughtbot.com}
   s.extra_rdoc_files = [
@@ -72,7 +72,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/thoughtbot/clearance}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Rails authentication with email & password.}
   s.test_files = [
     "test/controllers/confirmations_controller_test.rb",
@@ -86,7 +86,6 @@ Gem::Specification.new do |s|
      "test/rails_root/app/helpers/application_helper.rb",
      "test/rails_root/app/helpers/confirmations_helper.rb",
      "test/rails_root/app/helpers/passwords_helper.rb",
-     "test/rails_root/app/models/user.rb",
      "test/rails_root/config/boot.rb",
      "test/rails_root/config/environment.rb",
      "test/rails_root/config/environments/development.rb",
@@ -98,15 +97,10 @@ Gem::Specification.new do |s|
      "test/rails_root/config/initializers/requires.rb",
      "test/rails_root/config/initializers/time_formats.rb",
      "test/rails_root/config/routes.rb",
-     "test/rails_root/db/migrate/20100225210436_clearance_create_users.rb",
-     "test/rails_root/features/step_definitions/clearance_steps.rb",
-     "test/rails_root/features/step_definitions/factory_girl_steps.rb",
      "test/rails_root/features/step_definitions/web_steps.rb",
      "test/rails_root/features/support/env.rb",
-     "test/rails_root/features/support/paths.rb",
      "test/rails_root/public/dispatch.rb",
      "test/rails_root/script/create_project.rb",
-     "test/rails_root/test/factories/clearance.rb",
      "test/rails_root/test/functional/accounts_controller_test.rb",
      "test/rails_root/vendor/gems/justinfrench-formtastic-0.2.1/generators/formtastic_stylesheets/formtastic_stylesheets_generator.rb",
      "test/rails_root/vendor/gems/justinfrench-formtastic-0.2.1/lib/formtastic.rb",
